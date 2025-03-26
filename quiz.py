@@ -64,7 +64,30 @@ def main():
         "alternativas" :["var a = 1", "a == 1", "a = 1"],
         "resposta_correta": 3,
     },
+    {
+        "pergunta" : "Qual das seguintes opcoe e a melhor pratica para proteger suas senhas?",
+        "alternativas" : [
+            "Usar a mesma senha para todas as suas contas online",
+            "Anotar suas senhas em um papel e guarda-las em algum lugar seguro" ,
+            "Criar senhas complex e usar um gerenciador de senhas"
+                        ],
+        "resposta_correta" : 3,
+    },
+    {
+        "pergunta" : "Qual das seguintes opcoes podem ajudar a proteger computadores de malwares?" ,
+        "alternativas" :[
+            "Clicar em qualquer link e baixar qualquer arquivo que encontrar online",
+            "Desativar o firewall do computador",
+            "Manter softwares de antivirus atualizados e evitar baixar arquivos de fontes nao confiaveis"
+        ] ,
+        "resposta_correta" : 3,
+    },
     ]
+    escolha = input("Deseja iniciar o quiz? (S / N): ")
+    limpar_terminal()
 
-    quiz(perguntas)
+    if escolha == "S" or "s":
+        quiz(perguntas)
+
+
 main()
