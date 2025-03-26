@@ -60,12 +60,12 @@ def main():
         "resposta_correta": 3,
     },
     {
-        "pergunta" : "Como se declara uma variavel em python?",
+        "pergunta" : "Como se declara uma variável em python?",
         "alternativas" :["var a = 1", "a == 1", "a = 1"],
         "resposta_correta": 3,
     },
     {
-        "pergunta" : "Qual das seguintes opcoe e a melhor pratica para proteger suas senhas?",
+        "pergunta" : "Qual das seguintes opcões é a melhor prática para proteger suas senhas?",
         "alternativas" : [
             "Usar a mesma senha para todas as suas contas online",
             "Anotar suas senhas em um papel e guarda-las em algum lugar seguro" ,
@@ -74,7 +74,7 @@ def main():
         "resposta_correta" : 3,
     },
     {
-        "pergunta" : "Qual das seguintes opcoes podem ajudar a proteger computadores de malwares?" ,
+        "pergunta" : "Qual das seguintes opcções podem ajudar a proteger computadores de malwares?" ,
         "alternativas" :[
             "Clicar em qualquer link e baixar qualquer arquivo que encontrar online",
             "Desativar o firewall do computador",
